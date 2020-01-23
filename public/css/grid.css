@@ -1,0 +1,81 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gutter-between {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+}
+
+.grid {
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin-top: 30px;
+    text-align: left;
+    background-color: #fff;
+    min-width: 100%;
+}
+
+
+
+.grid ul.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.grid ul.pagination>li {
+    padding: 10px;
+}
+
+.grid ul.pagination>li.active {
+    font-weight: bold;
+}
+
+.grid ul.pagination>li.disabled {
+    color: #b6b6b6;
+}
+
+.confirmed
+{
+    background-color: green;
+    color: white;
+
+}
+.cancelled
+{
+    
+    background-color: red;
+    color: white;
+}
+
+.processing
+{
+    
+    background-color:#ff8080;
+    color: white;
+
+}
+.completed
+{
+    
+    background-color:#337ab7;
+    color: white;
+
+}
+.ongoing
+{
+    
+    background-color:#5bc0de;
+    color: white;
+
+}
